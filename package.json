@@ -1,0 +1,19 @@
+{
+  "name": "05_consola-bases-node",
+  "version": "0.0.2",
+  "description": "Es una tabla de multiplicar con archivo de texto.",
+  "main": "01_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base13": "node 01_app.js --base=13"
+  },
+  "author": "Juan Carlos Rios Rendon",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
